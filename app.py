@@ -59,7 +59,7 @@ def select():
     for player in records:
         response_str += '<tr>'
         for info in player:
-            response_str += '<td>{}<td>'.format(info)
+            response_str += '<td>{}</td>'.format(info)
         response_str += '</tr>'
     response_str += '</table>'
     return response_str
